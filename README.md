@@ -43,5 +43,5 @@ En este documento se va a usar la version de Comunidad (Community Edition) dispo
 
 No brainer, C&P:
 ```bash
-curl -fsSL https://get.docker.com | sudo sh
+curl -fsSL https://get.docker.com | bash
 ```
