@@ -22,7 +22,7 @@ El propósito de Docker es el de empaquetar aplicaciones asegurando de que corra
 
 No se tiene que confundir una Maquina Virtual con un Container: Las maquinas virtuales necesitan un Hypervisor para poder emular toda la funcionalidad de un SO por lo que consume más espacio y demora más en encender a diferencia de un container, que usa la funcionalidades del Kernel actual, ocupando mb de espacio y encender un app en cuestión de segundos.
 
-La gran mayoría de organizaciones ya tienen su aplicación lista para funcionar dentro de containers, Docker Hub contiene las imágenes de estos containers listos para ser descargados y desplegados
+La gran mayoría de organizaciones ya tienen su aplicación lista para funcionar dentro de containers, Docker Hub contiene las imagenes de estos containers listos para ser descargados y desplegados
 
 ## ¿Cómo funciona Docker?
 Después de instalar docker, correr una aplicación de Docker es tan fácil como correr el comando `run` con el nombre de la imágen que quieres usar.
@@ -31,7 +31,7 @@ Si quisiera correr una instancia de Node.js usaría `docker run nodejs`, lo mism
 
 ### Container vs Image
 
-Las imágenes (Image) es un paquete o una plantilla usado para crear uno o más contenedores, los contenedores corren instancias de contenedores que están aislados conteniendo sus propios procesos.
+Las imagenes (Image) es un paquete o una plantilla usado para crear uno o más contenedores, los contenedores corren instancias de contenedores que están aislados conteniendo sus propios procesos.
 
 Como hemos visto antes, varios productos ya tiene una imágen disponible en Docker Hub: Incluso si no encuentras algún software, puedes crear tu propia imágen y publicarlo en algún Docker registry para que sea público. 
 
